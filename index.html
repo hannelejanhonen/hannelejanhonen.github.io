@@ -2,17 +2,19 @@
 <html lang="fi" dir="ltr">
 
 <head>
-  <title>Hannele Janhonen - Web suunnittelu ja toteutus</title>
+  <title>Portfolio - Hannele Janhonen</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Web-sivujen suunnittelu ja toteutus hakukoneoptimointi huomioiden. Myös digianalytiikka. Keskiössä asiakas, sivujen käytettävyys ja visuaalisuus.">
+  <meta name="description" content="Web-sivujen suunnittelu ja toteutus. Hakukoneoptimointi ja digianalytiikka huomioiden. Keskiössä asiakas, sivujen käytettävyys ja visuaalisuus.">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <!-- Custom Styles -->
   <link rel="stylesheet" type="text/css" href="css/custom.css">
   <!-- Font styles -->
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Raleway&display=swap" rel="stylesheet">
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/98330a4a6a.js" crossorigin="anonymous"></script>
   <!--Favicon-->
@@ -23,9 +25,8 @@
 </head>
 
 <body>
-
-  <!-- Navigation bar and background image -->
   <header class="mynav">
+    <!-- Navigation bar and image -->
     <nav class="navbar navbar-expand-md navbar-custom navbar-dark bg-dark sticky-top">
       <a class="navbar-brand" href="index.html">HJ</a>
       <!-- Toggler/collapsibe Button -->
@@ -35,205 +36,384 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Etusivu <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">ETUSIVU <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tietoa">TIETOA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#osaaminen">OSAAMINEN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tyot">TYÖT</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="CV.html">CV</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="projektit.html">Projektit</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="suositukset.html">Suositukset</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="yhteystiedot.html">Ota yhteyttä</a>
+            <a class="nav-link" href="#yhteystiedot">OTA YHTEYTTÄ</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <!-- Image Header with Vertically Centered Content -->
-    <div class="container-fluid h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-12 text-center">
-          <div class="content">
-            <h1 class="font-weight-light">Hannele Janhonen </h1>
-            <p class="lead" style="font-family: 'Montserrat', sans-serif;">Web suunnittelu & toteutus </p>
-            <a class="btn btn-outline-warning" href="yhteystiedot.html" role="button">
-              Palkkaa minut &raquo;</a>
-          </div>
+    <div class="container jumbotron-text">
+          <h1 class="content-name font-weight-light">Hannele<br />Janhonen</h1>
+          <p class="lead-text">Tuote- ja palvelukehittäjä & Verkkosivuohjelmoija</p>
         </div>
-      </div>
-    </div>
+
   </header>
 
   <main>
 
-    <div class="container">
-
-      <div class="first-container">
-        <div class="row featurette">
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="images/majakassa.jpg" alt="Hannele majakan portaissa">
-          </div>
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Tervehdys! </h2>
-            <p>Ja tervetuloa sivuilleni! Rakensin nämä sivut, koska juuriltaan hämäläisen on helpompi esitellä osaamisensa konkreettisten esimerkkien kautta. No, toki isoin sysäys sivuston syntymiseen on intoni web-kehittämiseen, visuaaliseen
-              suunnitteluun ja tekniseen toteutukseen. Nautin työskentelystä visuaalisten elementtien, yksityiskohtien ja koodin parissa sekä siitä, että pystyn toteuttamaan suunnitelman toimivaksi palveluksi.
-              On palkitsevaa nähdä oma kädenjälkensä!
-              <br><br>
-              Palveluiden kehittämisessä tavoittelen ymmärrettävämpiä palveluita, jotka ovat kaikkien saavutettavissa, unohtamatta kuitenkaan palvelun vaikuttavuutta ja ulkoasua.
-              <br><br>
-              Niin ja siitä hämäläisestä tyypistä vielä. 1900-luvun alkupuoliskolla filosofian tohtori Kaarlo Hänninen kuvaili Kansakoulun maantieto ja kotiseutuoppi -teoksessaan hämäläisiä näin:
-              <i>”Työssään hän [hämäläinen] on erittäin kestävä ja käytännöllinen. Hän on oikein suomalaisen perikuva.”</i>
-            </p>
-            <a class="btn btn-outline-warning text-dark" href="CV.html" role="button">Tutustu CVheni &raquo;</a>
+    <!--First section: Tietoa -->
+    <section id="info">
+      <div class="container">
+        <div class="first-container">
+          <h2 class="featurette-heading" id="tietoa">Tietoa</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <p><i>Luovuuden ja teknisen toteutuksen yhdistäminen on intohimoni.
+                  Tulevaisuuden mietinnöissä on ollut niin oma puusepänverstas, valokuvagalleria, vintage-verkkokauppa, kakkua & kaljaa -kahvila kuin pienpanimokin.
+                  Sitten löysin koodauksen ja web-kehittämisen maailman, joka vei mukanaan.
+                  Huomasin miten antoisaa on saada oma kädenjälkensä näkyviin koodin kautta ja oppia uutta.
+                  Tämä tuo yhteen toiveeni työstä, jossa voin yhdistää luovuuttani, tämän ajan käsityöläisyyttä, koodausta sekä yrityskonseptien ja palveluiden jalostamista.
+              </p></i>
+            </div>
+            <div class="col-lg-4">
+              <p>Koulutukseltani olen kauppatieteiden maisteri. Olen tehnyt töitä tuote- ja palvelukehityksen
+                parissa vuodesta 2007 alkaen tuote-, kehitys- ja konseptipäällikkönä. Olen täydentänyt osaamistani ja opetellut web-ohjelmointia ja digitaalista liiketoimintaa
+                ammattikorkeakoulussa sekä itseopiskellen. Tekemisessäni yhdistyy kokemukseni liiketoiminnasta, ihmisten kanssa toimimisesta,
+                web-teknologiosta ja ymmärrys asiakaslähtöisistä palveluista.
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <p>Mielenkiintoni kohteena on erityisesti frontend-kehittäminen ja käytettävyyden & ulkoasun suunnittelu.
+                Vahvuutenani on kykyni havainnoida ja huomioida asioita (myös niitä pieniä), keskittyminen ratkaisujen löytämiseen ja halu tehdä
+                käytettävyydeltään selkeää, yksinkertaista ja kaunista ulkoasua.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Wrap in another container to center the content. -->
-    <div class="container">
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Mitä töitä olen tehnyt</h2>
-          <p>Olen saanut tehdä töitä palveluiden ja tuotteiden kehittämisen parissa finanssialalla yli kymmenen vuotta. Matkan varrella olen toiminut mm. tuotepäällikkönä, kehityspäällikkönä, konseptipäällikkönä ja tuoteportfoliopäällikkönä. Työni on
-            sisältänyt palveluiden suunnittelua ja kehitysprojektien vetämistä liiketoiminnan ja teknologian välimaastossa.
-            <br><br>
-            Tavoitteenani on päästä tekemään töitä entistä vahvemmin verkkopalveluiden konseptoinnissa ja saada kädet kiinni varsinaiseen toteutukseen. Innostun erityisesti fronttipuolesta, koska voin siinä yhdistää itselleni luontaista
-            visuaalisuutta ja konkreettista teknistä toteutusta.
-            Opiskelen parhaillaan web-kehittämistä AMKoodari -koulutuksessa sekä itsenäisesti.
-          </p>
-          <a class="btn btn-outline-warning text-dark" href="projektit.html" role="button">Tutustu projekteihini &raquo;</a>
+  <!--Second section: Osaaminen -->
+    <section id="osaaminen">
+      <div class="container">
+        <div class="second-container">
+          <h2 class="featurette-heading" id="osaaminen">Osaaminen</h2>
+          <!--First row -->
+          <div class="row">
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-desktop fa-3x"></i>
+              <h3 class="feature-title">Web-teknologiat</h3>
+              <p class="feature-text">Olen opiskellut seuraavia teknologioita:</p>
+              <ul class="feature-list">
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>ReactJS</li>
+                <li>PHP</li>
+              </ul>
+              <p class="feature-text">Olen tutustunut: jQuery, Node.js, RESTful API design, MySQL. </p>
+            </div>
+            <div class="feature-box col-lg-4">
+              <i class="icon far fa-chart-bar fa-3x"></i>
+              <h3 class="feature-title">Digitaalinen markkinointi ja analytiikka</h3>
+              <ul class="feature-list">
+                <li>Web-analytiikka: Google Analytics</li>
+                <li>Hakukoneoptimointi SEO</li>
+              </ul>
+            </div>
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-edit fa-3x"></i>
+              <h3 class="feature-title">Sisällöntuotanto</h3>
+              <ul class="feature-list">
+                <li>Sisällönhallintajärjestelmä: Contentful</li>
+                <li>Kuvankäsittely: Adobe Photoshop</li>
+                <li>Valokuvaus</li>
+              </ul>
+            </div>
+          </div>
+          <!--Second row -->
+          <div class="row">
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-tasks fa-3x"></i>
+              <h3 class="feature-title">Ketterä kehittäminen ja projektitoiminta</h3>
+              <ul class="feature-list">
+                <li>SAFe ketterän kehittämisen malli</li>
+                <li>Confluence</li>
+                <li>Jira</li>
+              </ul>
+            </div>
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-compass fa-3x"></i>
+              <h3 class="feature-title">Tuote- ja palvelukehitys</h3>
+              <ul class="feature-list">
+                <li>Tuotehallinta ja tuotteiden elinkaari</li>
+                <li>Idea- ja kehitysportfolion hallinta</li>
+                <li>Prosessikehitys ja LEAN ymmärrys</li>
+                <li>Palveluiden konseptointi ja tuotteistus</li>
+                <li>Ymmärrys palvelumuotoilusta ja asiakalähtöisestä kehittämisestä</li>
+              </ul>
+            </div>
+            <div class="feature-box col-lg-4">
+              <i class="icon fas fa-umbrella fa-3x"></i>
+              <h3 class="feature-title">Vakuutusliiketoiminta</h3>
+              <ul class="feature-list">
+                <li>Vakuutustuotteet- ja palvelut</li>
+                <li>Henkilövakuutukset</li>
+                <li>Yritysasiakkaat</li>
+                <li>Vakuuttaminen</li>
+              </ul>
+            </div>
+          </div>
           <br><br>
-          <a class="btn btn-outline-warning text-dark" href="suositukset.html" role="button">Katso mitä työkaverini sanovat minusta &raquo;</a>
-          <br><br>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" src="images/kirjat.jpg" alt="forest" width="500" height="500">
+          <!--Link to CV-->
+          <div class="text-center">
+            <a class="button-cv btn text-white text-center" href="CV.html" role="button">Katso CV &raquo;</a>
+          </div>
+
         </div>
       </div>
-    </div>
+    </section>
 
-    <!--Image gallery -->
-    <div class="container">
-      <hr class="featurette-divider">
-      <h2 class="featurette-heading text-center">Vielä muutama juttu</h2>
-      <p class="text-center">Asun Porvoossa. Pidän valokuvaamisesta. Rentoudun parhaiten luonnossa ja veden alla, toisinaan myös taivaalla.</p>
+  <!-- Third section: Työt -->
+    <section id="tyot">
+      <div class="container">
+        <h2 class="featurette-heading" id="tyot">Esimerkkejä töistä</h2>
+      </div>
 
-      <!--First row of image gallery -->
-      <div class="row no-gutters">
-        <div class="col-md">
-          <figure class="col-md">
-            <a href="images/Tatra-vuoret.jpg" target="_blank" data-size="500x500">
-              <img src="images/Tatra-vuoret.jpg" class="img-fluid" alt="Tatra-vuoret">
-            </a>
-          </figure>
-        </div>
-        <div class="col-md">
-          <figure class="col-md">
-            <a href="images/mustijoki.jpg" target="_blank" data-size="500x500">
-              <img src="images/mustijoki.jpg" class="img-fluid" alt="Kesäinen maisema Mustijoesta Porvoossa" />
-            </a>
-          </figure>
-        </div>
-        <div class="col-md">
-          <figure class="col-md">
-            <a href="images/tahdet.jpg" target="_blank" data-size="500x500">
-              <img src="images/tahdet.jpg" class="img-fluid" alt="Linnunrata ja meri">
-            </a>
-          </figure>
-        </div>
-        <div class="col-md">
-          <figure class="col-md">
-            <a href="images/Karhunkierros.jpg" target="_blank" data-size="400x400">
-              <img src="images/Karhunkierros.jpg" class="img-fluid" alt="Riippusillalla juoksemassa" />
-            </a>
-          </figure>
-        </div>
+      <div class="container">
+        <div class="row">
+          <!-- Project 1 -->
+          <div class="col-lg-4">
+            <div class="card shadow" style="width: 20rem">
+              <div class="inner">
+                <img class="card-img-top" src="images/code.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">www.countryhelp.fi</h5>
+                <p class="card-text">
+                  Suunnittelin ja toteutin yritykselle responsiivisen verkkosivun.
+                  Hankin sivustolle domainin ja hostingpalvelun.
+                </p>
+                <button type="button" class="button-projects btn" data-toggle="modal" data-target="#myModal1">Lue lisää &raquo;
+                </button>
+              </div>
+            </div>
+          </div>
 
-        <!--Second row of image gallery -->
-        <div class="row no-gutters">
-          <div class="col-md">
-            <figure class="col-md">
-              <a href="images/hyppy.jpg" target="_blank" data-size="500x500">
-                <img src="images/hyppy.jpg" class="img-fluid" alt="Laskuvarjohyppääjä taivaalla koneen ovella" />
-              </a>
-            </figure>
+          <!-- The Modal for project 1-->
+          <div class="modal fade" id="myModal1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Countryhelp.fi</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                  CountryHelp -yrityksen nettisivuston kehittäminen alusta loppuun:
+                  <ul>
+                    <li>Sivuston ulkoasun, toiminnallisuuksien ja sisältöjen suunnittelu sekä toteutus</li>
+                    <li>Domainin ja hostauksen hankinta</li>
+                    <li>Sivuston kuvat ja kuvien käsittely - osa omia kuviani, osa asiakkaan ottamia</li>
+                    <li>Tiedostojen FPT-siirto</li>
+                    <li>Hakukoneoptimointi ja Google Analyticsin lisäys</li>
+                    <li>Sivuston ylläpito</li>
+                  </ul>
+                  Toteutuksessa käytin seuraavia ohjelmia: HTML5, CSS3, JavaScript ja Bootstrap 4.
+                  <br><br>
+                  <a href="http://countryhelp.fi/" target="_blank">www.countryhelp.fi</a>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Sulje</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md">
-            <figure class="col-md">
-              <a href="images/raja-ampat.jpg" target="_blank" data-size="500x500">
-                <img src="images/raja-ampat.jpg" class="img-fluid" alt="Trooppisia kaloja laiturin alla Indonesiassa">
-              </a>
-            </figure>
+
+          <!-- project 2 -->
+          <div class="col-lg-4">
+            <div class="card shadow" style="width: 20rem">
+              <div class="inner">
+                <img class="card-img-top" src="images/management.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">OP Työkyvyn turva</h3>
+                  <p class="card-text">
+                    Johdin verkkosivuston
+                    suunnittelua ja edistämistä ideoinnista toteutukseen ja lanseeraukseen.
+                  </p>
+                  <button type="button" class="button-projects btn" data-toggle="modal" data-target="#myModal3">Lue lisää &raquo;
+                  </button>
+              </div>
+            </div>
           </div>
-          <div class="col-md">
-            <figure class="col-md">
-              <a href="images/porkkala.jpg" target="_blank" data-size="500x500">
-                <img src="images/porkkala.jpg" class="img-fluid" alt="Minä Porkkalan kallioilla" />
-              </a>
-            </figure>
+          <!-- The Modal for project 2 -->
+          <div class="modal fade" id="myModal3">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">OP Työkyvyn turva -verkkopalvelu</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                  OP Työkyvyn turva - nettisivuston kehittäminen
+                  <ul>
+                    <li>Projektin vetäminen ideoinnista sivuston lanseeraukseen</li>
+                    <li>Konseptin suunnittelu yhdessä palvelumuotoilijoiden ja asiantuntijoiden kanssa </li>
+                    <li>Sivuston sisältöjen suunnittelu palvelun asiantuntijoiden kanssa</li>
+                    <li>Teknisen toteutustiimin tukeminen toteutuksessa</li>
+                  </ul>
+                  <br>
+                  Tässä projektissa opin lisää web-projektin vetämisestä, web-sivuston kehittämisestä, sisällönhallintajärjestelmistä ja työskentelystä toteutustiimin kanssa.
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Sulje</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md">
-            <figure class="col-md">
-              <a href="images/merileijona.jpg" target="_blank" data-size="500x500">
-                <img src="images/merileijona.jpg" class="img-fluid" alt="Merileijona pinnan alla" />
-              </a>
-            </figure>
+
+          <!-- Project 3 -->
+          <div class="col-lg-4">
+            <div class="card shadowr" style="width: 20rem;">
+              <div class="inner">
+                <img class="card-img-top" src="images/project.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">OP Digitaalinen vakuutuskortti</h5>
+                <p class="card-text">
+                  Vedin projektia ideoinnista lanseeraukseen ja tein konseptisuunnittelua.
+                </p>
+                <button type="button" class="button-projects btn" data-toggle="modal" data-target="#myModal2">Lue lisää &raquo;
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- The Modal for project 3 -->
+          <div class="modal fade" id="myModal2">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Digitaalinen vakuutuskortti -verkkopalvelu</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                  Digitaalisen vakuutuskortin kehittäminen:
+                  <ul>
+                    <li>Kehitysprojektin vetäminen palvelun ideoinnista lanseeraukseen</li>
+                    <li>Palvelun konseptin suunnittelu yhdessä palvelumuotoilijoiden ja asiantuntijoiden kanssa </li>
+                    <li>Palvelun sisältöjen ja toiminnallisuuksien suunnittelu asiantuntijoiden ja käyttöliittymäsuunnittelijan kanssa</li>
+                    <li>Palvelun kuvaus ja määrittelyt</li>
+                    <li>Teknisen toteutustiimin tukeminen toteutuksessa</li>
+                  </ul>
+                  <br>
+                  Kehittämisen menetelmänä käytimme ketterän kehittämisen mallia (SAFe).
+                  <br><br>
+                  <a href="https://www.op.fi/corporate-customers/insurance/services/digital-insurance-card" target="_blank">OP Digitaalinen vakuutuskortti &raquo;</a>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn text-white" style="background: #fe346e" data-dismiss="modal">Sulje</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!--References -->
+      <div class="container">
+        <div id="carouselReferences" class="carousel slide" data-ride="carousel">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p><em>"Hänen vahvuuksia ovat pitkäjänteisyys ja periksiantamattomuus haastavissakin tilanteissa. Hannele sitoutuu tekemiseen ja esimiehenä on helppo luottaa siihen, että Hannele tekee mitä on sovittu. Hannelella on taito
+                  osallistuttaa muita ihmisiä tekemiseen ja hän on saanut hyvää palautetta yhteistyötaidoistaan ja kyvystä kohdata toiset ihmiset.
+                  Hannele on johdonmukainen ja mutkaton ja hänen kanssa on ollut mukava ja helppo työskennellä."</p></em>
+              <p>Esimies, OP 3/2019</p>
+            </div>
+            <div class="carousel-item">
+              <p><em>"Hannelen panostus näkyi erityisesti OP Työkyvynturva sivuston rakentamisessa ja onnistuneessa lopputuloksessa.
+                  Onnistuneessa lopputuloksessa näkyy Hannelen oma kiinnostus ja osaaminen konseptoinnin ja palvelumuotoilun alueella.
+                  Hannele vei määrätietoisella otteellaan ideaa eteenpäin ja jäsensi kokonaisuuden toteutuskelpoiseksi.
+                  Hannelen hyvät yhteistyöverkostot OP:n sisällä sekä palvelumuotoiluun että liiketoimintaan varmasti auttoivat työn läpiviennissä."</p></em>
+              <p>Yksikönpäällikkö, OP 3/2019</p>
+            </div>
+            <div class="carousel-item">
+              <p><em>"Hannele on työkaverina luotettava ja helposti lähestyttävä. Hän osaa kuunnella muiden näkökulmia ja ehdotuksia sekä tuo ajatuksensa esille rakentavasti keskustellen.
+                  Hannele on tiimin luottopakki, joka avoimin mielin tarttuu uusiin haasteisiin. Hänen kanssaan on ilo tehdä yhteistyötä."</p></em>
+              <p>Työkaveri, OP 3/2019</p>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#carouselReferences" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselReferences" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <!--Contact -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="featurette-heading" style="color:#F5F5F5;" id="yhteystiedot">Yhteystietoni</h2>
+        <br>
+        <p class="lead text-center" style="color:#F5F5F5;">Tarvitsetko kehitysprojekteihin tekijää?
+          <br>Soita tai lähetä viestiä!
+        </p>
+        <br><br>
+
+        <div class="row text-center">
+          <div class="col-md-12">
+            <p><a href="tel:+358405733733"><span style="color:#F5F5F5;"><i class="fas fa-mobile-alt fa-2x"></i> 040 5733 733</a></p>
+            <p><a href="mailto:hjanhonen@outlook.com" target="_blank"><span style="color:#F5F5F5;"><i class="fas fa-envelope-square fa-2x"></i> hjanhonen@outlook.com</a></p>
+            <a href="https://linkedin.com/in/hannelejanhonen" target="_blank"><span style="color:#F5F5F5;"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/hannelejanhonen" target="_blank"><span style="color: #F5F5F5;"><i class="fab fa-github-square fa-2x"></i></a>
+            <a href="https://instagram.com/hannelejanhonen/?hl=fi" target="_blank"><span style="color:#F5F5F5;"><i class="fab fa-instagram-square fa-2x"></i></a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
   </main>
 
   <!-- FOOTER -->
-  <footer class="footer font-small mdb-color pt-4 bg-dark">
-    <div class="row">
-      <div class="col-md-12 text-center text-light">
-        <div class="font-up-bold text-uppercase">
-          <p>
-            <a class="text-light" href="index.html">Etusivu</a>
-            <a class="text-light" href="CV.html">CV</a>
-            <a class="text-light" href="projektit.html">Projektit</a>
-            <a class="text-light" href="suositukset.html">Suositukset</a>
-            <a class="text-light" href="yhteystiedot.html">Yhteystiedot</a>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12 text-center text-light">
-        <a href="mailto:hjanhonen@outlook.com" target="_blank"><span style="color: white;"><i class="fas fa-envelope-square fa-2x"></i>
-            <a href="https://linkedin.com/in/hannele-janhonen" target="_blank"><span style="color: white;"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://github.com/hannelejanhonen" target="_blank"><span style="color: white;"><i class="fab fa-github-square fa-2x"></i></a>
-            <a href="https://instagram.com/hannelejanhonen/?hl=fi" target="_blank"><span style="color: white;"><i class="fab fa-instagram-square fa-2x"></i></a>
-            <a href="https://www.facebook.com" target="_blank"><span style="color: white;"><i class="fab fa-facebook-square fa-2x"></i></a>
-      </div>
-    </div>
-
-    <!-- Copyright -->
+  <footer class="footer font-small mdb-color pt-4">
     <div class="footer-copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center text-light">
-            <p>©2020 Hannele Janhonen</p>
-          </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>©2020 Handmade by Hannele Janhonen</p>
         </div>
       </div>
     </div>
   </footer>
 
-  <!-- Scripts: jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/custom.js"></script>
-
 </body>
 
 </html>

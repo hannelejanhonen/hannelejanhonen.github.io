@@ -2,10 +2,53 @@ p, li, tbody, h3, h5 {
   font-family: 'Lato', sans-serif;
 }
 
-  .skill-divider {
-  border: dotted #EAF6F6 5px;
-  border-bottom: none;
-  width: 3%;
+/*fonts
+-----------------------------------------*/
+.content-name {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  font-size: 4rem;
+  letter-spacing: 0.3rem;
+}
+
+.lead-text {
+font-family: 'Cardo', serif;
+color: #f1f1f1;
+font-size: 1.5rem;
+}
+
+/*Sections
+----------------------------*/
+#info {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+#osaaminen {
+  padding-top: 4rem;
+  background-color: #f4f6ff;
+  padding-bottom: 2rem;
+}
+
+#tyot {
+  padding-top: 5rem;
+  background-color: ;
+  padding-bottom: 2rem;
+}
+
+#contact {
+  padding-top: 5rem;
+  background-color: #1a1a2e;
+  padding-bottom: 2rem;
+
+}
+
+/*Containers
+----------------------------*/
+.container-fluid {
+  padding: 3% 15%;
+  margin-top: 8%;
 }
 
 /*Home page background image
@@ -25,12 +68,13 @@ p, li, tbody, h3, h5 {
 .content {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.4); /* Black background with 0.4 opacity */
-  color: #f1f1f1; /* Grey text */
+  color: #f1f1f1;
   padding: 20px; /* Some padding */
   letter-spacing: 0.3rem;
 }
 
-/*Jumbotron with navigation bar
+
+/*Jumbotron with navigation bar (CV-page)
 ------------------------------------------------------------*/
 .myjumbotron {
   background-image: url('../images/verso.jpg');
@@ -58,7 +102,7 @@ p, li, tbody, h3, h5 {
 
 .navbar .navbar-brand {
   color: white;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -81,60 +125,150 @@ p, li, tbody, h3, h5 {
   color: #ffc38b;
 }
 
-/*Containers
-----------------------------*/
 
-.first-container {
-  margin-top: 5rem;
-}
-
-/* Featurettes
+/* Features
 ----------------------------------------------------- */
 
-.featurette-divider {
-   margin: 3rem 0;/* Space out the <hr> more */
-}
 
 /* Thin out the marketing headings */
 .featurette-heading {
+  font-size: 50px;
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -.05rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+.feature-box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.icon {
+  color: #ea907a;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: ;
+}
+
+.feature-list {
+  list-style-type: square;
+  text-align: left;
+}
+
+.feature-text {
+  text-align: left;
+}
+
+.button-cv {
+  background-color: #ff4c68;
+  color: #F5F5F5;
+  text-transform: uppercase;
+}
+
+.button-cv:hover {
+  background-color: #ea907a;
+}
+
+/*Työt / projects
+-------------------------------------------------- */
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
 
 }
 
-/* responsive css */
+.button-projects {
+    background-color: #F5F5F5;
+    color: #ff4c68;
+}
 
-.featurette-heading {
-    font-size: 50px;
-  }
+.button-projects:hover {
+    background-color: #ff4c68;
+    color: #F5F5F5;
 
-  @media (min-width: 62em) {
-    .featurette-heading {
-      margin-top: 5rem;
-    }
+}
 
+/*Referensces
+---------------------------------------------------*/
+#carouselReferences {
+  padding: 50px 50px 0px 50px;
+}
 
-/* Progress bar in skills page
+.carousel-item {
+  overflow: hidden;
+  min-height: 290px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff4c68' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff4c68' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/*CV
 -------------------------------------------------- */
 
-.labels {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 5px;
-  span {
-    color: #666;
-  }
+
+.table-title {
+  color: #ffa36c;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+
 }
+
+.button-cv-2 {
+  background-color: #ff4c68;
+  color: #F5F5F5;
+  text-transform: uppercase;
+
+}
+
+.button-cv-2:hover {
+  background-color:  #ea907a;
+  color: #F5F5F5;
+  text-transform: uppercase;
+
+}
+
 
 /*Footer
 -------------------------------------------------- */
 
 .footer {
   text-align: center;
-  margin-top: 40px;
+
 }
 
 .footer-copyright {
   margin-top: 3rem;
+}
+
+/*responsive css
+-------------------------------------------------- */
+@media (max-width:900px) {
+  .content-name {
+    font-size: 2rem;
+  }
 }
