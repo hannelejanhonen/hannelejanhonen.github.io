@@ -21,24 +21,24 @@ font-size: 1.5rem;
 /*Sections
 ----------------------------*/
 #info {
-  padding-top: 5rem;
+  padding-top: 4rem;
   padding-bottom: 10rem;
 }
 
 #osaaminen {
-  padding-top: 4rem;
-  background-color: #f4f6ff;
+  padding-top: 2rem;
+  background-color: #e8e8e8;
   padding-bottom: 2rem;
 }
 
 #tyot {
-  padding-top: 5rem;
+  padding-top: 2rem;
   background-color: ;
   padding-bottom: 2rem;
 }
 
 #contact {
-  padding-top: 5rem;
+  padding-top: 2rem;
   background-color: #1a1a2e;
   padding-bottom: 2rem;
 
@@ -67,7 +67,7 @@ font-size: 1.5rem;
 /*Transparent image text on background image*/
 .content {
   background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.4); /* Black background with 0.4 opacity */
+  background: rgba(0, 0, 0, 0.8); /* Black background with 0.4 opacity */
   color: #f1f1f1;
   padding: 20px; /* Some padding */
   letter-spacing: 0.3rem;
@@ -138,6 +138,7 @@ font-size: 1.5rem;
   text-align: center;
   margin-bottom: 3rem;
   text-transform: uppercase;
+
 }
 .feature-box {
   text-align: center;
@@ -262,7 +263,7 @@ font-size: 1.5rem;
 }
 
 .footer-copyright {
-  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 /*responsive css
