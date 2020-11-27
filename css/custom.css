@@ -2,6 +2,11 @@ p, li, tbody, h3, h5 {
   font-family: 'Open Sans', sans-serif;
 }
 
+hr {
+border: 1px solid #ff4c68;
+width: 50%;
+margin-bottom: 4rem;
+}
 /*fonts
 -----------------------------------------*/
 .content-name {
@@ -23,7 +28,7 @@ font-size: 1.5rem;
 ----------------------------*/
 #info {
   padding-top: 4rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 #osaaminen {
@@ -35,8 +40,8 @@ background: linear-gradient(0deg, rgba(154,179,179,1) 10%, rgba(17,100,102,1) 98
 }
 
 #tyot {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
 }
 
 #contact {
@@ -154,7 +159,6 @@ linear-gradient(to bottom, rgba(2, 5, 18, 0.52), rgba(17, 100, 102, 0.73)),
   font-weight: 300;
   line-height: 1;
   text-align: center;
-  margin-bottom: 3rem;
   text-transform: uppercase;
 
 }
@@ -164,7 +168,7 @@ linear-gradient(to bottom, rgba(2, 5, 18, 0.52), rgba(17, 100, 102, 0.73)),
 }
 
 .icon {
-  color: #ffcb9a;
+  color: #ea907a;
   margin-bottom: 1rem;
 }
 
@@ -176,7 +180,8 @@ linear-gradient(to bottom, rgba(2, 5, 18, 0.52), rgba(17, 100, 102, 0.73)),
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
-  color: ;
+
+
 }
 
 .feature-list {
@@ -223,6 +228,8 @@ linear-gradient(to bottom, rgba(2, 5, 18, 0.52), rgba(17, 100, 102, 0.73)),
     color: #F5F5F5;
 
 }
+
+
 
 /*Referensces
 ---------------------------------------------------*/
